@@ -1,0 +1,95 @@
+body{
+    background-color: #c3b4d1;
+    font-family: Tahoma;
+	font-size: 1.1em;
+
+}
+
+input[type=text], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=password], select {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 75%;
+    background-color: purple;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+#cheap{
+    font-family: "Impact";
+    font-size: 40px;
+    text-align:center;
+     background-color: black;
+     color: white;
+    
+}
+
+#mai{
+    background-color: #dad7dc;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width:500px;
+    height: 400px;
+    padding: 14px 20px;
+}
+
+.mai{
+    background-color: #dad7dc;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 40%;
+    height: 400px;
+    padding: 14px 20px;
+    float: left;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+#viewRecent{
+    background-color: #dad7dc;
+    top: 80px;
+    right: 50px;
+    width: 40%;
+    height: 400px;
+    padding: 14px 20px;
+    clear: left;
+    margin: 10px;
+    border: 3px solid black;
+}
+
+#image{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+}
+h1{
+    text-align:center;
+}
+
+#buttonp{
+    clear: left;
+    text-align:center;
+}

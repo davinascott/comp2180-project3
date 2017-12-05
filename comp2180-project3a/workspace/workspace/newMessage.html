@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cheapomail</title>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id = "cheap"> Cheapomail </div>
+        <div id="mail">
+            
+            <div id="newMessage">
+                <h1> COMPOSE NEW MESSAGE</h1>
+            
+                <form method="post" action = "newMessage.php" >
+                    <label for="recipients">Recipients</label> 
+                    <input type="text" id="recipients" name="recipients"><br>
+                    
+                    <label for="subject">Subjects</label> 
+                    <input type="text" id="subject" name="subject"><br>
+                
+                    <label for="body">Body</label>
+                     <input type="textarea" id="body" name="body"><br>
+                 
+                     <input type="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
